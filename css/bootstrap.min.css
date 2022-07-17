@@ -9204,7 +9204,7 @@ a.text-light:hover {
     color: #cbd3da !important;
 }
 .text-dark {
-    color: #343a40 !important;
+    color: #000 !important;
 }
 a.text-dark:focus,
 a.text-dark:hover {
@@ -9416,6 +9416,7 @@ section h2 {
     height: 3.25rem;
     font-size: 1.25rem;
     line-height: 2rem;
+    padding: .55rem;
 }
 .scroll-to-top {
     z-index: 1042;
@@ -9535,7 +9536,7 @@ a:hover {
 .headerme{
     background: #4c4c4c;
     padding-top: 5.5rem;
-    min-height: 750px;
+    min-height: 720px;
     overflow: hidden;
 }
 .header-text{
@@ -9556,7 +9557,7 @@ a:hover {
 }
 
 .about{
-    min-height: 760px;
+    min-height: 720px;
 }
 
 .about-head{
@@ -9569,9 +9570,6 @@ a:hover {
     margin-bottom : 2rem !important;
     width: 30%;
 }
-.abouthr::before{
-
-}
 .aboutintro{
     font-weight: 300;
 }
@@ -9579,4 +9577,108 @@ a:hover {
 .btn-text{
     font-family: Montserrat;
     font-weight: 700;
+}
+.experience{
+    min-height: 700px;
+
+}
+
+.header-exp{
+    padding-top: 4rem !important;
+    font-size: 4rem;   
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.dataexp{
+    padding-top: 5rem ;
+}
+.exp-card{
+    font-family: 'Courier New', Courier, monospace;
+}
+.exp-card-1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+.exp-date{
+    font-family: 'Courier New', Courier, monospace;
+    padding-inline-start: 0.45rem;
+}
+
+.content-center{
+    padding-left: 10rem;
+}
+
+.card-ul{
+    margin-block-start: 0 !important;
+    padding-inline-start: 1.45rem !important;
+    margin-bottom: 0!important;
+}
+
+.project{
+    min-height: 720px;
+    padding-top: 1px;
+    background: #7f1746;
+}
+
+.skills{
+    min-height: 720px;
+}
+
+.education{
+    min-height: 720px;
+}
+
+.contact{
+    min-height: 600px;
+    overflow: hidden;
+}
+
+.bg-card{
+    background:#181413;
+}
+.card-link{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Montserrat;
+}
+.card-link-1{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Montserrat;
+}
+.card-img-edu{
+    padding-bottom: 2.5rem;
+    border-bottom: 0.25rem solid #000;
+}
+.card-img-jj{
+    border-bottom: 0.25rem solid #000;
+}
+.exp-card-edu{
+    font-family: 'Montserrat';
+    font-size: 12.5px;
+}
+
+.exp-hr{
+    border-top: 0.25rem solid #7f1746; 
+    margin-top : 2rem !important;
+    margin-bottom : 2rem !important;
+}
+
+.btn-social{
+    margin-left: 4rem;
+}
+
+.socialize{
+    text-decoration: none;
+    color: #fff;
+    text-transform: none;
+}
+
+.socialize:hover{
+    color: #fff !important;
+}
+
+.text-skills{
+    color:  #7f1746;
 }
