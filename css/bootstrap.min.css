@@ -9682,3 +9682,27 @@ a:hover {
 .text-skills{
     color:  #7f1746;
 }
+
+.footer-span{
+    color: #721c24;
+    font-family: "Montserrat";
+    font-style: italic; 
+    font-size: large; 
+    font-weight: 600;
+}
+.footer{
+    font-family: "Lato" !important;
+    font-size: large; 
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.copyright{
+    color: white;
+     background-color: transparent;
+}
+#contact{
+    padding: 0 0 !important;
+}
+body{
+    background-color: #000;
+}
