@@ -1,0 +1,152 @@
+@media (max-width: 1180px) {
+  #mainNav .navbar-nav {
+    margin-top: 0;
+    font-size: .98rem;
+  }
+  .card-link-1 {
+    font-weight: 400;
+    font-family: Montserrat;
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 991px) {
+  .header-text {
+    padding-top: 5rem;
+    font-size: 4.5rem;
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+  .headerme {
+    background: #4c4c4c;
+    padding-top: 5.5rem;
+    min-height: 580px;
+    overflow: hidden;
+  }
+  .headimg{
+    height: 37rem !important;
+    width: 31rem !important;
+  }
+  .card-exp{
+    margin-bottom: 1.5rem;
+  }
+  .younity-card{
+    font-size: 0.85rem !important;
+    padding-left: 1rem;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
+  .younity-card-2{
+    padding-left: 12rem;
+  }
+  .projectcard{
+    padding-left: 6rem;
+  }
+}
+@media (max-width: 768px) {
+  .headimg{
+    height: auto !important;
+    padding-block-start: 6rem;
+    width: 100% !important;
+  }
+  .header-text {
+    padding-top: 12rem;
+    font-size: 3rem;
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+  .headermetext{
+    font-size: 1rem;
+  }
+  .aboutintro{
+    font-size: 1.75rem;
+  }
+}
+@media (max-width: 767px) {
+  .headimg{
+    height: auto !important;
+    padding-block-start: 0;
+    width: 100% !important;
+  }
+  .header-exp{
+    padding-top: 4rem !important;
+    font-size: 3rem;
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+  .younity-card-2 {
+      padding-left: 1rem;
+  }
+  .dataexp{
+    padding-left: 6.5rem;
+  }
+  .education{
+    padding-left: 8rem;
+  }
+  .blue{
+    padding-top: 1.25rem;
+  }
+  .projectcard {
+    padding-left: 0rem;
+  }
+  .header-exp{
+    padding-left: 1.5rem;
+  }
+  .skill-img{
+    width: 75px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header-text {
+    padding-top: 5rem !important;
+    font-size: 3rem;
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+  .header-exp{
+    padding-left: .5rem;
+  }
+  .education{
+    padding-left: 6rem;
+  }
+  .skill-img{
+    width: 55px;
+  }
+  .contact{
+    font-size: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .btn-social {
+    margin-left: 2rem;
+}
+
+}
+
+@media (max-width: 415px) {
+  
+  .header-exp{
+    padding-left: 1.5rem;
+    font-size: 2rem ;
+  }
+  .dataexp{
+    padding-left: 2.5rem;
+  }
+  .education{
+    padding-left: 4rem;
+  }
+  .skill-img{
+    width: 55px;
+  }
+  .contact{
+    font-size: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .btn-social {
+    margin-left: 2rem;
+  }
+  .skills-text{ 
+    font-size: .894rem !important;
+  }
+}
