@@ -184,3 +184,6 @@ body{
 .soical-icon{
   margin-right: 3.5rem !important;
 }
+.align{
+  padding-inline-start: 10rem;
+}
