@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/media.css" />
   </head>
-  <body data-spy="scroll" data-target="#maiNav" id="home" onload="myFunction()">
+  <body data-spy="scroll" data-target="mainNav" id="home" onload="myFunction()">
 
     <div id="preloader">
     </div>
@@ -639,7 +639,7 @@
     </section>
 
     <!-- Footer -->
-
+    
     <footer class="bg-dark text-center footer pb-2">
       <p class="copyright">
         <i class="fa-solid fa-copyright"></i>
@@ -648,7 +648,11 @@
       </p>
     </footer>
     <!-- Bootstrap JS -->
+    
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/script.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script
@@ -671,25 +675,28 @@
         loop: true,
       });
     </script>
-    <!-- SCROLL -->
     <script>
-      // Init ScroolSpy
-      $('body').scrollspy({target: '#mainNav'});
-
-
-      $("#mainNav a").on('click', function(event){
-      if(this.hash !== ""){
-        event.preventDefault();
-
-        const hash = this.hash;
-
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        },800, function(){
+      // Get the current year for the copyright
+      $('#year').text(new Date().getFullYear());
+  
+      // Init Scrollspy
+      $('body').scrollspy({ target: '#mainNav' });
+  
+      // Smooth Scrolling
+      $("#mainNav a").on('click', function (event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+  
+          const hash = this.hash;
+  
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+  
             window.location.hash = hash;
-            });
-          }
-        })
+          });
+        }
+      });
     </script>
   </body>
 </html>
